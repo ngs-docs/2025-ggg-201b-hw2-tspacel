@@ -1,7 +1,12 @@
 rule all:
     input:
-        "SRR2584857_quast.4000000",
-        "SRR2584857_annot.4000000",
+        "SRR2584857_quast.500000", 
+        "SRR2584857_annot.500000",
+        "SRR2584857_quast.1000000", 
+        "SRR2584857_annot.1000000",
+        "SRR2584857_quast.2000000", 
+        "SRR2584857_annot.2000000",
+
 
 rule subset_reads:
     input:
